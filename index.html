@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Responsive Blog Template</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact us</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <header class="main_header">
+        <div class="d-flex justify-content-center align-items-center flex-column py-5">
+            <h1 class="main_heading">AKSHAY A CODER</h1>
+            <p class="main_heading__para">Welocome to my<span class="text-capatalize bg-dark text-white py-2 px-3">World of blog</span></p>
+        </div>
+        <div class="main_header__div d-flex align-items-start justify-content-center pl-5 flex-column shadow">
+            <p>Akshay Tech</p>
+            <h2 class="animateWord"><span>He is </span>
+                <div>
+                    <ul class="flip">
+                        <li>a Coder</li>
+                        <li>a Developer</li>
+                        <li>a Programmer</li>
+                        <li>Awesome</li>
+                    </ul>
+                </div>
+            </h2>
+            <button class="text-uppercase">Subscribe</button>
+        </div>
+    </header>
+    <!-- Our First div  -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-10 col-lg-10 col-11 mx-auto my-5">
+                <div class="row-gx-5 mx-sm-auto">
+                    <div class="col-lg-8 col-md-11 mx-auto">
+                        <div class="row gy-5">
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1 class="text-uppercase main_heading">best laptop in 2023</h1>
+                                    <p class="blog_title"><span class="font-weight-bold"> Title description,</span> Mar 23, 2023</p>
+                                </div>
+                                <figure class="right_side_img mb-5">
+                                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=671&q=80 classimg-fluid shadow">
+                                </figure>
+                                <p><span class="font-weight-bold">Akshay Tech</span> A welcome blog post introduces your blog to the world. It shouldn’t consist only of a brief announcement, though, because you’re setting the stage for future content. You must let people know that you’re an authority in your industry and that you’re capable of producing meaty, engaging content.</p>
+                            <p>Think of your welcome or introductory blog post as your audition. You only get one chance to get it right, and your audience will decide based on its content whether they want to return to your blog. Don’t let your anxiety take over, though, because we’re going to share a formula that works.</p>
+                            <div class="d-flex justify-content-between left_div_btns">
+                            <div>
+                                <button class="left_div_like" id="like_btn">
+                                    <i class="fa-solid fa-thumbs-up"></i> Like
+                                </button>
+                            </div>
+                            <div>
+                                <button class="left_div_reply" onclick="reply('reply1')">
+                                    Replies <badge class="bg-white text-dark p-2">1</badge>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="replies" id="reply1">
+                            <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                                <div class="reply_img mx-2 align-items-center">
+                                    <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" title="male icons">
+                                 </div>
+                                 <div class="reply_text_left">
+                                    <p class="blog_title">
+                                        <span class="font-weight-bold">Akshay,</span> March 12, 2023, 7:20 PM
+                                    </p>
+                                    <p>Awessome, Bro I love your content.</p>
+                                 </div>
+                            </div>
+                        </div>
+
+                    <!-- Our second div  -->
+         <div class="col-12 card p-4 shadow blog_left__div">
+            <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                <h1 class="text-uppercase main_heading">best laptop in 2023</h1>
+                <p class="blog_title"><span class="font-weight-bold"> Title description,</span> Mar 23, 2023</p></div>
+                    <figure class="right_side_img mb-5">
+                        <img src="https://images.pexels.com/photos/3815750/pexels-photo-3815750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                    </figure>
+                        <p><span class="font-weight-bold">Akshay Tech</span> A welcome blog post introduces your blog to the world. It shouldn’t consist only of a brief announcement, though, because you’re setting the stage for future content. You must let people know that you’re an authority in your industry and that you’re capable of producing meaty, engaging content.</p>
+                        <p>Think of your welcome or introductory blog post as your audition. You only get one chance to get it right, and your audience will decide based on its content whether they want to return to your blog. Don’t let your anxiety take over, though, because we’re going to share a formula that works.</p>
+                           <div class="d-flex justify-content-between left_div_btns">
+                        <div>
+                            <button class="left_div_like" id="like_btn">
+                                <i class="fa-solid fa-thumbs-up"></i> Like
+                            </button>
+                        </div>
+                        <div>
+                            <button class="left_div_reply" onclick="reply('reply2')">
+                                Replies <badge class="bg-white text-dark p-2">2</badge>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="replies" id="reply2">
+                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                            <div class="reply_img mx-2 align-items-center">
+                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" title="male icons">
+                             </div>
+                             <div class="reply_text_left">
+                                <p class="blog_title">
+                                    <span class="font-weight-bold">Akshay,</span> March 12, 2023, 7:20 PM
+                                </p>
+                                <p>Awessome, Bro I love your content.</p>
+                             </div>
+                        </div>
+                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                            <div class="reply_img mx-2 align-items-center">
+                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" title="male icons">
+                             </div>
+                             <div class="reply_text_left">
+                                <p class="blog_title">
+                                    <span class="font-weight-bold">Vijay,</span> March 12, 2023, 7:20 PM
+                                </p>
+                                <p>Awessome, Bro I am watch your videos and subscribed.</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                   
+                <!-- Our Third div  -->
+                <div class="col-12 card p-4 shadow blog_left__div">
+                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                        <h1 class="text-uppercase main_heading">best laptop in 2023</h1>
+                        <p class="blog_title"><span class="font-weight-bold"> Title description,</span> Mar 23, 2023</p> </div>
+                            <figure class="right_side_img mb-5">
+                                <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=648&q=80">
+                            </figure>
+                                <p><span class="font-weight-bold">Akshay Tech</span> A welcome blog post introduces your blog to the world. It shouldn’t consist only of a brief announcement, though, because you’re setting the stage for future content. You must let people know that you’re an authority in your industry and that you’re capable of producing meaty, engaging content.</p>
+                                <p>Think of your welcome or introductory blog post as your audition. You only get one chance to get it right, and your audience will decide based on its content whether they want to return to your blog. Don’t let your anxiety take over, though, because we’re going to share a formula that works.</p>
+                                   <div class="d-flex justify-content-between left_div_btns">
+                                <div>
+                                    <button class="left_div_like" id="like_btn">
+                                        <i class="fa-solid fa-thumbs-up"></i> Like
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="left_div_reply" onclick="reply('reply3')">
+                                        Replies <badge class="bg-white text-dark p-2">3</badge>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="replies" id="reply3">
+                                <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                                    <div class="reply_img mx-2 align-items-center">
+                                        <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" title="male icons">
+                                     </div>
+                                     <div class="reply_text_left">
+                                        <p class="blog_title">
+                                            <span class="font-weight-bold">Akshay,</span> March 12, 2023, 7:20 PM
+                                        </p>
+                                        <p>Awessome, I am watch your videos.</p>
+                                     </div>
+                                </div>
+
+                                 <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                                    <div class="reply_img mx-2 align-items-center">
+                                        <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" title="male icons">
+                                     </div>
+                                     <div class="reply_text_left">
+                                        <p class="blog_title">
+                                            <span class="font-weight-bold">Manoj,</span> March 13, 2023, 7:20 PM
+                                        </p>
+                                        <p>Your Videos are very helpful for students.</p>
+                                     </div>
+                                </div>
+                              
+                        
+                                    <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                                      <div class="reply_img mx-2 align-items-center">
+                                         <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" title="male icons">
+                                        </div>
+                                         <div class="reply_text_left">
+                                            <p class="blog_title">
+                                                <span class="font-weight-bold">Manish,</span> March 16, 2023, 7:20 PM
+                                            </p>
+                                            <p> your videos are easy to understand.</p>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     
+                    <div class="col-lg-6 col-md-7 col-11 justify-content-end m-lg-5 mx-auto">
+                        <div class="row gy-5 left_div_blog">
+                            <!-- about me part -->
+                            <div class="col-12 about_me_div shadow">
+                                <p>Akshay Bodade</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a voluptatem aut praesentium ratione rerum natus et exercitationem porro consequuntur provident, voluptatibus ea sint maiores consequatur excepturi debitis enim sed repellat. Dolorem, accusantium adipisci!</p>
+                            </div>
+                                <!-- popular post  -->
+                                <div class="popular_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Popular post</h2>
+                                    </div>
+                                    <div class="right_sub_div shadow">
+                                      <div class="row">
+                                        <div class="col-3 popular_post__img1 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Bill Gates</h3>
+                                            <p class="text-capatalize">CEO Microsoft</p>
+
+                                        </div>
+                                      </div>
+
+                                      <div class="row">
+                                        <div class="col-3 popular_post__img2 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Mark Zuckerberg</h3>
+                                            <p class="text-capatalize">programmer</p>
+
+                                        </div>
+                                      </div>
+
+                                      <div class="row">
+                                        <div class="col-3 popular_post__img3 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Jeff Bezos</h3>
+                                            <p class="text-capatalize">Amazon</p>
+
+                                        </div>
+                                      </div>
+
+                                      <div class="row">
+                                        <div class="col-3 popular_post__img4 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Steve jobs</h3>
+                                            <p class="text-capatalize">Apple</p>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>advertise</h2>
+
+                                    </div>
+                                    <div class="right_sub_div">
+                                        <div class="advertise_img bg-light shadow">
+                                            <p>Ads goes here</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Tags</h2>
+                                    </div>
+                                    <div class="tags_main right_sub_div">
+                                        <a href="https://youtu.be/MDLn5-zSQQI" target="akshay" class="badge shadow text-capatalize">html</a>
+                                        <a href="#" class="badge shadow text-capatalize">css</a>
+                                        <a href="#" class="badge shadow text-capatalize">js</a>
+                                        <a href="#" class="badge shadow text-capatalize">python</a>
+                                        <a href="#" class="badge shadow text-capatalize">react</a>
+                                        <a href="#" class="badge shadow text-capatalize">c</a>
+                                        <a href="#" class="badge shadow text-capatalize">php</a>
+                                        <a href="#" class="badge shadow text-capatalize">c++</a>
+                                        <a href="#" class="badge shadow text-capatalize">java</a>
+                                        <a href="#" class="badge shadow text-capatalize">c#</a>
+                                    </div>
+                                </div>
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Inspiration</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <div class="row-gx-3">
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=671&q=80 classimg-fluid shadow" >
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=671&q=50 classimg-fluid shadow"> 
+                                                </figure>
+
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=671&q=80 classimg-fluid shadow"> 
+                                                </figure>
+
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=671&q=80" class="img-fluid-shadow" >  
+                                                </figure>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="right_div_post">
+                                <div class="right_div_title py-4 pl-2">
+                                    <h2>Follow Me</h2>
+                                </div>
+                                    <div class="right_sub_div d-flex justify-content-around ">
+                                        <a href="#"><i class="fab fa-facebook-square fa-3x"></i></a>
+                                        <a href="#"><i class="fab fa-3x fa-instagram-square"></i></a>
+                                        <a href="#"><i class="fab fa-3x fa-github-square"></i></a>
+                                        <a href="#"><i class="fab fa-3x fa-twitter-square"></i></a>
+                                        <a href="#"><i class="fab fa-3x fa-youtube-square"></i></a>
+                                        <a href="#"><i class="fab fa-3x fa-linkedin"></i></a>
+                                </div>
+                                <!-- subscribe newsletter -->
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Subscribe</h2>
+                                    </div>
+                                        <div class="right_sub_div">
+                                            <form>
+                                                <div class="mb-3">
+                                                  <label for="exampleInputEmail1" class="form-label">Enter your email below and notified on the latest blog posts.</label>
+                                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="abc@gmail.com">
+                                                </div>
+                                                <button type="submit" class="subs_btn d-block">Submit</button>
+                                              </form>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="text-center py-4 bg-light">Design with love by &copy AkshayTech</p>
+        </footer>
+                        
+                    
+                
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        const reply = (res) =>{
+                var res = document.getElementById(res);
+                console.log(res);
+                if(res.className = "replies"){
+                    res.className = "akshayTech"
+                }else if(res.className = "akshayTech"){
+                    res.className = "replies";
+                }
+        }
+        // like button js
+        // to get the id of like button
+        const like = document.getElementById("like_btn");
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+
+        }
+
+        // second step to call the func onclick and then doubleClick
+
+        var clickCount = 0;
+
+        like.addEventListener('click',function(){
+            clickCount++;
+            if(clickCount === 1){
+                singleClickTimer = setTimeout(function(){
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2){
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+                },false);
+            
+        
+    </script>
+
+
+</body>
+
+</html>
